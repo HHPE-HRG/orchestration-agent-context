@@ -56,8 +56,21 @@ Everything under `xlotyl/chunks/`, `stoneforge/chunks/`, and `generated/` is **r
 | terminality / mark-terminal validation        | XLOTYL                             |
 | daemon-decision contract                      | XLOTYL defines, Stoneforge consumes|
 
+## Supporting-repo policy
+
+The supporting repos (`claw-code/`, `void/`, `openclaw/`) are indexed shallowly **on purpose**:
+
+- Each has only a hand-curated `00-overview.md`.
+- There are no `chunks/`, no symbol index, and no rolled-up index entries.
+- File counts are still recorded in `generated/source-manifest.json` and `generated/FRESHNESS.md` so freshness can be verified.
+
+If a task genuinely needs deep context for a supporting repo, do not invent it from the overview. Instead, ask the operator to extend `context-config.json` and `scripts/generate.py` and re-run `./refresh.sh`. See [`HOW_TO_QUERY_CONTEXT.md`](HOW_TO_QUERY_CONTEXT.md) → "the supporting repos".
+
 ## When in doubt
 
+- Read [`START_HERE.md`](START_HERE.md) for the agent entrypoint.
+- Read [`HOW_TO_QUERY_CONTEXT.md`](HOW_TO_QUERY_CONTEXT.md) for the query playbook.
 - Read [`README.md`](README.md) for the user-facing overview.
 - Read [`integration/00-xlotyl-stoneforge-boundary.md`](integration/00-xlotyl-stoneforge-boundary.md) for the rule that decides which repo a change belongs in.
 - Read [`integration/06-current-roadmap.md`](integration/06-current-roadmap.md) before suggesting "what should we do next" — the roadmap is the answer.
+- Check [`generated/FRESHNESS.md`](generated/FRESHNESS.md) before quoting specific symbols.

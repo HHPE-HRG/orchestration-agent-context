@@ -39,6 +39,8 @@ rm -f  "$ROOT_DIR/xlotyl/01-repo-map.md" \
        "$ROOT_DIR/xlotyl/03-symbol-index.md"
 rm -f  "$ROOT_DIR/stoneforge/01-repo-map.md" \
        "$ROOT_DIR/stoneforge/03-symbol-index.md"
+# Wipe and recreate generated/. FRESHNESS.md lives there too so it's
+# always rewritten with the new manifest.
 rm -rf "$ROOT_DIR/generated"
 mkdir -p "$ROOT_DIR/generated" \
          "$ROOT_DIR/xlotyl/chunks" \

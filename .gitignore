@@ -6,6 +6,10 @@
 node_modules/
 .venv/
 
+# Local static-site build output produced by scripts/publish_static_context.sh.
+# This is a derived bundle; the GitHub Actions workflow builds its own copy.
+_site/
+
 # Defensive: never commit secrets, even if a future generator regression tries to.
 .env
 .env.*

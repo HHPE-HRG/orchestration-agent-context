@@ -1,0 +1,67 @@
+# publish-static.yml — opt-in GitHub Pages publisher for the orchestration-agent-context mirror.
+#
+# Module purpose:
+#   Build the static bundle via scripts/publish_static_context.sh and upload it
+#   to GitHub Pages, but ONLY when the operator explicitly triggers the
+#   workflow. There is no push trigger by design — publishing changes the
+#   access surface of the mirror and must remain a deliberate operator action.
+#
+# Process flow:
+#   1. workflow_dispatch — operator clicks "Run workflow" in the Actions tab
+#   2. checkout the repo
+#   3. run scripts/publish_static_context.sh to build _site/
+#   4. upload _site/ as a Pages artifact
+#   5. deploy the artifact to GitHub Pages
+#
+# Prerequisites (one-time, in repo settings):
+#   - Settings → Pages → Build and deployment → Source = "GitHub Actions"
+#   - Confirm the repo's visibility matches your access intent. If the repo
+#     is private and your GitHub plan does not support private Pages, the
+#     deploy step will fail; in that case, use Cloudflare Pages or Netlify
+#     against the _site/ artifact downloaded from this run instead.
+
+name: publish-static
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one publish run at a time; cancel any in-flight run when a new one starts.
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build static bundle
+        run: |
+          chmod +x scripts/publish_static_context.sh
+          ./scripts/publish_static_context.sh
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
