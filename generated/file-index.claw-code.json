@@ -1,0 +1,1352 @@
+[
+  {
+    "repo": "claw-code",
+    "path": ".claude.json",
+    "size_bytes": 56
+  },
+  {
+    "repo": "claw-code",
+    "path": ".claude/sessions/session-1774998936453.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": ".claude/sessions/session-1774998994373.json",
+    "size_bytes": 432
+  },
+  {
+    "repo": "claw-code",
+    "path": ".claude/sessions/session-1775007533836.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": ".claude/sessions/session-1775007622154.json",
+    "size_bytes": 284
+  },
+  {
+    "repo": "claw-code",
+    "path": ".claude/sessions/session-1775007632904.json",
+    "size_bytes": 291
+  },
+  {
+    "repo": "claw-code",
+    "path": ".claude/sessions/session-1775007846522.json",
+    "size_bytes": 358
+  },
+  {
+    "repo": "claw-code",
+    "path": ".claude/sessions/session-1775009126105.json",
+    "size_bytes": 280
+  },
+  {
+    "repo": "claw-code",
+    "path": ".claude/sessions/session-1775009583240.json",
+    "size_bytes": 810
+  },
+  {
+    "repo": "claw-code",
+    "path": ".claude/sessions/session-1775009651284.json",
+    "size_bytes": 292
+  },
+  {
+    "repo": "claw-code",
+    "path": ".claude/sessions/session-1775010002596.json",
+    "size_bytes": 1236
+  },
+  {
+    "repo": "claw-code",
+    "path": ".claude/sessions/session-1775010229294.json",
+    "size_bytes": 390
+  },
+  {
+    "repo": "claw-code",
+    "path": ".claude/sessions/session-1775010237519.json",
+    "size_bytes": 827
+  },
+  {
+    "repo": "claw-code",
+    "path": ".github/FUNDING.yml",
+    "size_bytes": 41
+  },
+  {
+    "repo": "claw-code",
+    "path": ".github/scripts/check_doc_source_of_truth.py",
+    "size_bytes": 1730
+  },
+  {
+    "repo": "claw-code",
+    "path": ".github/workflows/release.yml",
+    "size_bytes": 1601
+  },
+  {
+    "repo": "claw-code",
+    "path": ".github/workflows/rust-ci.yml",
+    "size_bytes": 2952
+  },
+  {
+    "repo": "claw-code",
+    "path": ".gitignore",
+    "size_bytes": 244
+  },
+  {
+    "repo": "claw-code",
+    "path": "CLAUDE.md",
+    "size_bytes": 1093
+  },
+  {
+    "repo": "claw-code",
+    "path": "Containerfile",
+    "size_bytes": 271
+  },
+  {
+    "repo": "claw-code",
+    "path": "PARITY.md",
+    "size_bytes": 13573
+  },
+  {
+    "repo": "claw-code",
+    "path": "PHILOSOPHY.md",
+    "size_bytes": 4053
+  },
+  {
+    "repo": "claw-code",
+    "path": "README.md",
+    "size_bytes": 5759
+  },
+  {
+    "repo": "claw-code",
+    "path": "ROADMAP.md",
+    "size_bytes": 86212
+  },
+  {
+    "repo": "claw-code",
+    "path": "USAGE.md",
+    "size_bytes": 13641
+  },
+  {
+    "repo": "claw-code",
+    "path": "docs/container.md",
+    "size_bytes": 3763
+  },
+  {
+    "repo": "claw-code",
+    "path": "install.sh",
+    "size_bytes": 11351
+  },
+  {
+    "repo": "claw-code",
+    "path": "mocks/README.md",
+    "size_bytes": 355
+  },
+  {
+    "repo": "claw-code",
+    "path": "mocks/mock-anthropic-service/Cargo.toml",
+    "size_bytes": 404
+  },
+  {
+    "repo": "claw-code",
+    "path": "mocks/mock-anthropic-service/src/lib.rs",
+    "size_bytes": 38181
+  },
+  {
+    "repo": "claw-code",
+    "path": "mocks/mock-anthropic-service/src/main.rs",
+    "size_bytes": 1109
+  },
+  {
+    "repo": "claw-code",
+    "path": "mocks/parity/mock_parity_scenarios.json",
+    "size_bytes": 3646
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775007453382.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775007484031.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775007490104.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775007981374.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775008007069.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775008071886.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775008137143.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775008161929.json",
+    "size_bytes": 757
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775008308936.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775008427969.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775008464519.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775008997307.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775009119214.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775009126336.json",
+    "size_bytes": 343
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775009145469.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775009431231.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775009769569.json",
+    "size_bytes": 519
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775009841982.json",
+    "size_bytes": 557
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775009869734.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775010047738.json",
+    "size_bytes": 4388
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775010333630.json",
+    "size_bytes": 2303
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775010384918.json",
+    "size_bytes": 1152
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775010909274.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775011146355.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775011562247.json",
+    "size_bytes": 451647
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775012674485.json",
+    "size_bytes": 311
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775012687059.json",
+    "size_bytes": 267
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claude/sessions/session-1775013221875.json",
+    "size_bytes": 27
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claw/sessions/session-1775386832313-0.jsonl",
+    "size_bytes": 135
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claw/sessions/session-1775386842352-0.jsonl",
+    "size_bytes": 230
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claw/sessions/session-1775386852257-0.jsonl",
+    "size_bytes": 230
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.claw/sessions/session-1775386853666-0.jsonl",
+    "size_bytes": 230
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.clawd-todos.json",
+    "size_bytes": 575
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.gitignore",
+    "size_bytes": 29
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.omc/plans/tui-enhancement-plan.md",
+    "size_bytes": 14498
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/.sandbox-home/.rustup/settings.toml",
+    "size_bytes": 28
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/Cargo.lock",
+    "size_bytes": 54182
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/Cargo.toml",
+    "size_bytes": 466
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/MOCK_PARITY_HARNESS.md",
+    "size_bytes": 1278
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/PARITY.md",
+    "size_bytes": 9123
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/README.md",
+    "size_bytes": 7595
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/TUI-ENHANCEMENT-PLAN.md",
+    "size_bytes": 14682
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/USAGE.md",
+    "size_bytes": 281
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/Cargo.toml",
+    "size_bytes": 500
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/src/client.rs",
+    "size_bytes": 8426
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/src/error.rs",
+    "size_bytes": 20917
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/src/http_client.rs",
+    "size_bytes": 10862
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/src/lib.rs",
+    "size_bytes": 1498
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/src/prompt_cache.rs",
+    "size_bytes": 24160
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/src/providers/anthropic.rs",
+    "size_bytes": 59941
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/src/providers/mod.rs",
+    "size_bytes": 37384
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/src/providers/openai_compat.rs",
+    "size_bytes": 63472
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/src/sse.rs",
+    "size_bytes": 10740
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/src/types.rs",
+    "size_bytes": 8988
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/tests/client_integration.rs",
+    "size_bytes": 33854
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/tests/openai_compat_integration.rs",
+    "size_bytes": 18106
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/tests/provider_client_integration.rs",
+    "size_bytes": 2703
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/api/tests/proxy_integration.rs",
+    "size_bytes": 5527
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/commands/Cargo.toml",
+    "size_bytes": 266
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/commands/src/lib.rs",
+    "size_bytes": 192057
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/compat-harness/Cargo.toml",
+    "size_bytes": 276
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/compat-harness/src/lib.rs",
+    "size_bytes": 11143
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/plugins/Cargo.toml",
+    "size_bytes": 246
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/plugins/bundled/example-bundled/.claude-plugin/plugin.json",
+    "size_bytes": 255
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/plugins/bundled/example-bundled/hooks/post.sh",
+    "size_bytes": 52
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/plugins/bundled/example-bundled/hooks/pre.sh",
+    "size_bytes": 51
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/plugins/bundled/sample-hooks/.claude-plugin/plugin.json",
+    "size_bytes": 252
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/plugins/bundled/sample-hooks/hooks/post.sh",
+    "size_bytes": 44
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/plugins/bundled/sample-hooks/hooks/pre.sh",
+    "size_bytes": 43
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/plugins/src/hooks.rs",
+    "size_bytes": 17780
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/plugins/src/lib.rs",
+    "size_bytes": 122641
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/plugins/src/test_isolation.rs",
+    "size_bytes": 2142
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/Cargo.toml",
+    "size_bytes": 485
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/bash.rs",
+    "size_bytes": 11526
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/bash_validation.rs",
+    "size_bytes": 28830
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/bootstrap.rs",
+    "size_bytes": 3072
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/branch_lock.rs",
+    "size_bytes": 4452
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/compact.rs",
+    "size_bytes": 29499
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/config.rs",
+    "size_bytes": 68155
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/config_validate.rs",
+    "size_bytes": 25930
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/conversation.rs",
+    "size_bytes": 61957
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/file_ops.rs",
+    "size_bytes": 27717
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/git_context.rs",
+    "size_bytes": 10238
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/green_contract.rs",
+    "size_bytes": 4061
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/hooks.rs",
+    "size_bytes": 29245
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/json.rs",
+    "size_bytes": 10384
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/lane_events.rs",
+    "size_bytes": 14141
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/lib.rs",
+    "size_bytes": 7506
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/lsp_client.rs",
+    "size_bytes": 23149
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/mcp.rs",
+    "size_bytes": 9876
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/mcp_client.rs",
+    "size_bytes": 8953
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/mcp_lifecycle_hardened.rs",
+    "size_bytes": 27777
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/mcp_server.rs",
+    "size_bytes": 16046
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/mcp_stdio.rs",
+    "size_bytes": 107396
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/mcp_tool_bridge.rs",
+    "size_bytes": 30991
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/oauth.rs",
+    "size_bytes": 20200
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/permission_enforcer.rs",
+    "size_bytes": 19182
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/permissions.rs",
+    "size_bytes": 21427
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/plugin_lifecycle.rs",
+    "size_bytes": 16283
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/policy_engine.rs",
+    "size_bytes": 16323
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/prompt.rs",
+    "size_bytes": 32810
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/recovery_recipes.rs",
+    "size_bytes": 20942
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/remote.rs",
+    "size_bytes": 12527
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/sandbox.rs",
+    "size_bytes": 12585
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/session.rs",
+    "size_bytes": 53111
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/session_control.rs",
+    "size_bytes": 34864
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/sse.rs",
+    "size_bytes": 4183
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/stale_base.rs",
+    "size_bytes": 12985
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/stale_branch.rs",
+    "size_bytes": 12315
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/summary_compression.rs",
+    "size_bytes": 8609
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/task_packet.rs",
+    "size_bytes": 4920
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/task_registry.rs",
+    "size_bytes": 15524
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/team_cron_registry.rs",
+    "size_bytes": 15221
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/trust_resolver.rs",
+    "size_bytes": 8001
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/usage.rs",
+    "size_bytes": 10424
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/src/worker_boot.rs",
+    "size_bytes": 47159
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/runtime/tests/integration_tests.rs",
+    "size_bytes": 12659
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/rusty-claude-cli/.claw/sessions/session-newer.jsonl",
+    "size_bytes": 135
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/rusty-claude-cli/Cargo.toml",
+    "size_bytes": 840
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/rusty-claude-cli/build.rs",
+    "size_bytes": 2120
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/rusty-claude-cli/src/init.rs",
+    "size_bytes": 16016
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/rusty-claude-cli/src/input.rs",
+    "size_bytes": 9752
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/rusty-claude-cli/src/main.rs",
+    "size_bytes": 420232
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/rusty-claude-cli/src/render.rs",
+    "size_bytes": 35742
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/rusty-claude-cli/tests/cli_flags_and_config_defaults.rs",
+    "size_bytes": 10478
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/rusty-claude-cli/tests/compact_output.rs",
+    "size_bytes": 5704
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/rusty-claude-cli/tests/mock_parity_harness.rs",
+    "size_bytes": 29873
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/rusty-claude-cli/tests/output_format_contract.rs",
+    "size_bytes": 15131
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/rusty-claude-cli/tests/resume_slash_commands.rs",
+    "size_bytes": 18101
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/telemetry/Cargo.toml",
+    "size_bytes": 237
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/telemetry/src/lib.rs",
+    "size_bytes": 16119
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/tools/.gitignore",
+    "size_bytes": 15
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/tools/Cargo.toml",
+    "size_bytes": 541
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/tools/src/lane_completion.rs",
+    "size_bytes": 5423
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/tools/src/lib.rs",
+    "size_bytes": 349431
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/crates/tools/src/pdf_extract.rs",
+    "size_bytes": 18286
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/scripts/run_mock_parity_diff.py",
+    "size_bytes": 4455
+  },
+  {
+    "repo": "claw-code",
+    "path": "rust/scripts/run_mock_parity_harness.sh",
+    "size_bytes": 137
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/QueryEngine.py",
+    "size_bytes": 712
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/Tool.py",
+    "size_bytes": 326
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/__init__.py",
+    "size_bytes": 912
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/_archive_helper.py",
+    "size_bytes": 468
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/assistant/__init__.py",
+    "size_bytes": 533
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/bootstrap/__init__.py",
+    "size_bytes": 533
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/bootstrap_graph.py",
+    "size_bytes": 803
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/bridge/__init__.py",
+    "size_bytes": 527
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/buddy/__init__.py",
+    "size_bytes": 525
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/cli/__init__.py",
+    "size_bytes": 521
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/command_graph.py",
+    "size_bytes": 1247
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/commands.py",
+    "size_bytes": 3053
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/components/__init__.py",
+    "size_bytes": 535
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/constants/__init__.py",
+    "size_bytes": 533
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/context.py",
+    "size_bytes": 1580
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/coordinator/__init__.py",
+    "size_bytes": 537
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/costHook.py",
+    "size_bytes": 210
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/cost_tracker.py",
+    "size_bytes": 322
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/deferred_init.py",
+    "size_bytes": 771
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/dialogLaunchers.py",
+    "size_bytes": 312
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/direct_modes.py",
+    "size_bytes": 543
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/entrypoints/__init__.py",
+    "size_bytes": 537
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/execution_registry.py",
+    "size_bytes": 1399
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/history.py",
+    "size_bytes": 559
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/hooks/__init__.py",
+    "size_bytes": 525
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/ink.py",
+    "size_bytes": 145
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/interactiveHelpers.py",
+    "size_bytes": 129
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/keybindings/__init__.py",
+    "size_bytes": 537
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/main.py",
+    "size_bytes": 10493
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/memdir/__init__.py",
+    "size_bytes": 527
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/migrations/__init__.py",
+    "size_bytes": 535
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/models.py",
+    "size_bytes": 1070
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/moreright/__init__.py",
+    "size_bytes": 533
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/native_ts/__init__.py",
+    "size_bytes": 533
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/outputStyles/__init__.py",
+    "size_bytes": 539
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/parity_audit.py",
+    "size_bytes": 5268
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/permissions.py",
+    "size_bytes": 776
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/plugins/__init__.py",
+    "size_bytes": 529
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/port_manifest.py",
+    "size_bytes": 1836
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/prefetch.py",
+    "size_bytes": 640
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/projectOnboardingState.py",
+    "size_bytes": 184
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/query.py",
+    "size_bytes": 193
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/query_engine.py",
+    "size_bytes": 7763
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/__init__.py",
+    "size_bytes": 77
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/archive_surface_snapshot.json",
+    "size_bytes": 1078
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/commands_snapshot.json",
+    "size_bytes": 40169
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/assistant.json",
+    "size_bytes": 144
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/bootstrap.json",
+    "size_bytes": 135
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/bridge.json",
+    "size_bytes": 888
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/buddy.json",
+    "size_bytes": 267
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/cli.json",
+    "size_bytes": 713
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/components.json",
+    "size_bytes": 1145
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/constants.json",
+    "size_bytes": 739
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/coordinator.json",
+    "size_bytes": 151
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/entrypoints.json",
+    "size_bytes": 379
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/hooks.json",
+    "size_bytes": 1349
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/keybindings.json",
+    "size_bytes": 612
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/memdir.json",
+    "size_bytes": 334
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/migrations.json",
+    "size_bytes": 683
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/moreright.json",
+    "size_bytes": 143
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/native_ts.json",
+    "size_bytes": 259
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/outputStyles.json",
+    "size_bytes": 158
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/plugins.json",
+    "size_bytes": 170
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/remote.json",
+    "size_bytes": 251
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/schemas.json",
+    "size_bytes": 129
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/screens.json",
+    "size_bytes": 193
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/server.json",
+    "size_bytes": 208
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/services.json",
+    "size_bytes": 1109
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/skills.json",
+    "size_bytes": 801
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/state.json",
+    "size_bytes": 274
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/types.json",
+    "size_bytes": 536
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/upstreamproxy.json",
+    "size_bytes": 185
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/utils.json",
+    "size_bytes": 814
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/vim.json",
+    "size_bytes": 215
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/subsystems/voice.json",
+    "size_bytes": 134
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/reference_data/tools_snapshot.json",
+    "size_bytes": 36444
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/remote/__init__.py",
+    "size_bytes": 527
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/remote_runtime.py",
+    "size_bytes": 753
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/replLauncher.py",
+    "size_bytes": 169
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/runtime.py",
+    "size_bytes": 8233
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/schemas/__init__.py",
+    "size_bytes": 529
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/screens/__init__.py",
+    "size_bytes": 529
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/server/__init__.py",
+    "size_bytes": 527
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/services/__init__.py",
+    "size_bytes": 531
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/session_store.py",
+    "size_bytes": 1022
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/setup.py",
+    "size_bytes": 2315
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/skills/__init__.py",
+    "size_bytes": 527
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/state/__init__.py",
+    "size_bytes": 525
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/system_init.py",
+    "size_bytes": 698
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/task.py",
+    "size_bytes": 93
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/tasks.py",
+    "size_bytes": 421
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/tool_pool.py",
+    "size_bytes": 1044
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/tools.py",
+    "size_bytes": 3285
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/transcript.py",
+    "size_bytes": 585
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/types/__init__.py",
+    "size_bytes": 525
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/upstreamproxy/__init__.py",
+    "size_bytes": 541
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/utils/__init__.py",
+    "size_bytes": 525
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/vim/__init__.py",
+    "size_bytes": 521
+  },
+  {
+    "repo": "claw-code",
+    "path": "src/voice/__init__.py",
+    "size_bytes": 525
+  },
+  {
+    "repo": "claw-code",
+    "path": "tests/test_porting_workspace.py",
+    "size_bytes": 10667
+  }
+]

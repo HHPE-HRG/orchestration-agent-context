@@ -1,0 +1,17 @@
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+node_modules/
+.venv/
+
+# Defensive: never commit secrets, even if a future generator regression tries to.
+.env
+.env.*
+secrets/
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
