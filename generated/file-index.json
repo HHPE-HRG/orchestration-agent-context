@@ -1,8 +1,23 @@
 [
   {
     "repo": "xlotyl",
+    "path": "STRATEGY.md",
+    "size_bytes": 3791
+  },
+  {
+    "repo": "xlotyl",
+    "path": "docs/plans/2026-05-09-001-docs-strategy-intent-documentation-closure-plan.md",
+    "size_bytes": 843
+  },
+  {
+    "repo": "xlotyl",
+    "path": "docs/plans/2026-05-10-001-feat-orchestration-maturity-parallel-gates-plan.md",
+    "size_bytes": 20318
+  },
+  {
+    "repo": "xlotyl",
     "path": ".github/workflows/ci.yml",
-    "size_bytes": 10324
+    "size_bytes": 10389
   },
   {
     "repo": "xlotyl",
@@ -13,6 +28,11 @@
     "repo": "xlotyl",
     "path": ".github/workflows/hosted-orchestration-smoke.yml",
     "size_bytes": 2821
+  },
+  {
+    "repo": "xlotyl",
+    "path": ".github/workflows/orchestration-maturity-certificate.yml",
+    "size_bytes": 1482
   },
   {
     "repo": "xlotyl",
@@ -52,7 +72,7 @@
   {
     "repo": "xlotyl",
     "path": "Makefile",
-    "size_bytes": 3398
+    "size_bytes": 3624
   },
   {
     "repo": "xlotyl",
@@ -162,7 +182,7 @@
   {
     "repo": "xlotyl",
     "path": "docs/README.md",
-    "size_bytes": 1049
+    "size_bytes": 1419
   },
   {
     "repo": "xlotyl",
@@ -183,6 +203,16 @@
     "repo": "xlotyl",
     "path": "docs/adr/0005-prompt-native-orchestration-chat.md",
     "size_bytes": 5026
+  },
+  {
+    "repo": "xlotyl",
+    "path": "docs/adr/0006-orchestration-checkpoints-and-idempotency.md",
+    "size_bytes": 2055
+  },
+  {
+    "repo": "xlotyl",
+    "path": "docs/adr/0007-maturity-certificate-spec.md",
+    "size_bytes": 2254
   },
   {
     "repo": "xlotyl",
@@ -221,6 +251,21 @@
   },
   {
     "repo": "xlotyl",
+    "path": "docs/meta/README.md",
+    "size_bytes": 558
+  },
+  {
+    "repo": "xlotyl",
+    "path": "docs/meta/maturity-lane-contracts.md",
+    "size_bytes": 5405
+  },
+  {
+    "repo": "xlotyl",
+    "path": "docs/meta/parallel-maturity-prs.md",
+    "size_bytes": 3000
+  },
+  {
+    "repo": "xlotyl",
     "path": "docs/migration/server-xlotyl-boundary-final-report.md",
     "size_bytes": 1954
   },
@@ -238,6 +283,11 @@
     "repo": "xlotyl",
     "path": "docs/operators/capability-package-authoring.md",
     "size_bytes": 3017
+  },
+  {
+    "repo": "xlotyl",
+    "path": "docs/operators/orchestration-maturity-certificate-runbook.md",
+    "size_bytes": 1113
   },
   {
     "repo": "xlotyl",
@@ -268,6 +318,31 @@
     "repo": "xlotyl",
     "path": "docs/plans/2026-04-29-001-feat-hosted-orchestration-smoke-and-stoneforge-e2e-gates-plan.md",
     "size_bytes": 18258
+  },
+  {
+    "repo": "xlotyl",
+    "path": "docs/policies/README.md",
+    "size_bytes": 1281
+  },
+  {
+    "repo": "xlotyl",
+    "path": "docs/policies/guardrail-failure-modes.md",
+    "size_bytes": 3455
+  },
+  {
+    "repo": "xlotyl",
+    "path": "docs/policies/guardrail-failure-modes.yaml",
+    "size_bytes": 2149
+  },
+  {
+    "repo": "xlotyl",
+    "path": "docs/policies/human-in-the-loop-policy.md",
+    "size_bytes": 2885
+  },
+  {
+    "repo": "xlotyl",
+    "path": "docs/policies/tracing-observability-policy.md",
+    "size_bytes": 4281
   },
   {
     "repo": "xlotyl",
@@ -358,6 +433,11 @@
     "repo": "xlotyl",
     "path": "domains/engineering/domain.manifest.yaml",
     "size_bytes": 828
+  },
+  {
+    "repo": "xlotyl",
+    "path": "fixtures/ci/director-path-register.json",
+    "size_bytes": 6555
   },
   {
     "repo": "xlotyl",
@@ -982,7 +1062,12 @@
   {
     "repo": "xlotyl",
     "path": "knowledge/wiki/meta/documentation-layers.md",
-    "size_bytes": 3401
+    "size_bytes": 3599
+  },
+  {
+    "repo": "xlotyl",
+    "path": "knowledge/wiki/meta/strategy-and-maturity-handoff.md",
+    "size_bytes": 3470
   },
   {
     "repo": "xlotyl",
@@ -1261,6 +1346,11 @@
   },
   {
     "repo": "xlotyl",
+    "path": "knowledge/wiki/projects/orchestration-maturity-ambiguity.md",
+    "size_bytes": 29560
+  },
+  {
+    "repo": "xlotyl",
     "path": "knowledge/wiki/projects/xlotyl-stoneforge-connection.md",
     "size_bytes": 1621
   },
@@ -1517,7 +1607,7 @@
   {
     "repo": "xlotyl",
     "path": "pyproject.toml",
-    "size_bytes": 1875
+    "size_bytes": 1945
   },
   {
     "repo": "xlotyl",
@@ -1528,6 +1618,11 @@
     "repo": "xlotyl",
     "path": "schemas/capability-package/v1/capability-package-manifest.schema.json",
     "size_bytes": 4340
+  },
+  {
+    "repo": "xlotyl",
+    "path": "schemas/ci/orchestration-maturity-certificate.schema.json",
+    "size_bytes": 1710
   },
   {
     "repo": "xlotyl",
@@ -1716,6 +1811,11 @@
   },
   {
     "repo": "xlotyl",
+    "path": "scripts/__init__.py",
+    "size_bytes": 89
+  },
+  {
+    "repo": "xlotyl",
     "path": "scripts/bootstrap_stoneforge_contract_env.sh",
     "size_bytes": 7220
   },
@@ -1727,7 +1827,7 @@
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "size_bytes": 15588
+    "size_bytes": 18838
   },
   {
     "repo": "xlotyl",
@@ -1738,6 +1838,11 @@
     "repo": "xlotyl",
     "path": "scripts/check_deployed_branch_no_model_mocks.py",
     "size_bytes": 3137
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/check_guardrail_policy_matrix.py",
+    "size_bytes": 2568
   },
   {
     "repo": "xlotyl",
@@ -1816,6 +1921,11 @@
   },
   {
     "repo": "xlotyl",
+    "path": "scripts/orchestration_maturity_certificate_emit.py",
+    "size_bytes": 4842
+  },
+  {
+    "repo": "xlotyl",
     "path": "scripts/orchestration_tier3_materialize.mjs",
     "size_bytes": 9053
   },
@@ -1836,6 +1946,11 @@
   },
   {
     "repo": "xlotyl",
+    "path": "scripts/sync-director-register.mjs",
+    "size_bytes": 1334
+  },
+  {
+    "repo": "xlotyl",
     "path": "scripts/sync_domain_orchestration_wiki.py",
     "size_bytes": 3084
   },
@@ -1851,8 +1966,23 @@
   },
   {
     "repo": "xlotyl",
+    "path": "scripts/tests/test_orchestration_maturity_certificate_emit.py",
+    "size_bytes": 2072
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tests/test_tier1_tracing_spans.py",
+    "size_bytes": 2207
+  },
+  {
+    "repo": "xlotyl",
     "path": "scripts/tests/test_validate_capability_packages.py",
     "size_bytes": 7452
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tier1_tracing_spans.py",
+    "size_bytes": 4363
   },
   {
     "repo": "xlotyl",
@@ -4326,13 +4456,18 @@
   },
   {
     "repo": "xlotyl",
+    "path": "services/core-dev-services/src/__tests__/director_register_fixture.contract.test.ts",
+    "size_bytes": 999
+  },
+  {
+    "repo": "xlotyl",
     "path": "services/core-dev-services/src/__tests__/stoneforge_activate.test.ts",
     "size_bytes": 2246
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/__tests__/stoneforge_aggregate.test.ts",
-    "size_bytes": 2669
+    "size_bytes": 2834
   },
   {
     "repo": "xlotyl",
@@ -4611,8 +4746,23 @@
   },
   {
     "repo": "xlotyl",
+    "path": "services/core-dev-services/src/stoneforge/guardrail-evaluation-integration.test.ts",
+    "size_bytes": 2964
+  },
+  {
+    "repo": "xlotyl",
+    "path": "services/core-dev-services/src/stoneforge/guardrail-runtime.test.ts",
+    "size_bytes": 1772
+  },
+  {
+    "repo": "xlotyl",
+    "path": "services/core-dev-services/src/stoneforge/guardrail-runtime.ts",
+    "size_bytes": 3929
+  },
+  {
+    "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "size_bytes": 19003
+    "size_bytes": 19086
   },
   {
     "repo": "xlotyl",
@@ -4672,7 +4822,7 @@
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/validator-registry.ts",
-    "size_bytes": 702
+    "size_bytes": 957
   },
   {
     "repo": "xlotyl",
@@ -8812,7 +8962,7 @@
   {
     "repo": "xlotyl",
     "path": "uv.lock",
-    "size_bytes": 347121
+    "size_bytes": 347208
   },
   {
     "repo": "xlotyl",
@@ -14161,8 +14311,18 @@
   },
   {
     "repo": "stoneforge",
+    "path": "docs/orchestration/director-path-register.json",
+    "size_bytes": 6555
+  },
+  {
+    "repo": "stoneforge",
+    "path": "docs/orchestration/director-path-register.md",
+    "size_bytes": 7522
+  },
+  {
+    "repo": "stoneforge",
     "path": "docs/wiki/xlotyl-stoneforge-connection.md",
-    "size_bytes": 1453
+    "size_bytes": 2086
   },
   {
     "repo": "stoneforge",
@@ -14267,7 +14427,7 @@
   {
     "repo": "stoneforge",
     "path": "packages/core/src/index.ts",
-    "size_bytes": 588
+    "size_bytes": 716
   },
   {
     "repo": "stoneforge",
@@ -14463,6 +14623,11 @@
     "repo": "stoneforge",
     "path": "packages/core/src/utils/mentions.ts",
     "size_bytes": 5889
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "size_bytes": 3506
   },
   {
     "repo": "stoneforge",
@@ -15352,7 +15517,7 @@
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "size_bytes": 137030
+    "size_bytes": 138120
   },
   {
     "repo": "stoneforge",
@@ -15482,7 +15647,7 @@
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "size_bytes": 2534
+    "size_bytes": 436
   },
   {
     "repo": "stoneforge",
@@ -15548,6 +15713,11 @@
     "repo": "stoneforge",
     "path": "packages/quarry/src/systems/index.ts",
     "size_bytes": 1523
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/quarry/test/director-task-guard.integration.test.ts",
+    "size_bytes": 2578
   },
   {
     "repo": "stoneforge",
@@ -15677,7 +15847,7 @@
   {
     "repo": "stoneforge",
     "path": "packages/shared-routes/src/plans.ts",
-    "size_bytes": 20558
+    "size_bytes": 21133
   },
   {
     "repo": "stoneforge",
@@ -15868,6 +16038,11 @@
     "repo": "stoneforge",
     "path": "packages/smithy/src/index.ts",
     "size_bytes": 1535
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/smithy/src/orchestration/director-path-register.contract.test.ts",
+    "size_bytes": 2700
   },
   {
     "repo": "stoneforge",
@@ -16301,6 +16476,11 @@
   },
   {
     "repo": "stoneforge",
+    "path": "packages/smithy/src/server/routes/fixtures/director-task-create-forbidden.http-409.json",
+    "size_bytes": 236
+  },
+  {
+    "repo": "stoneforge",
     "path": "packages/smithy/src/server/routes/health.ts",
     "size_bytes": 985
   },
@@ -16357,7 +16537,7 @@
   {
     "repo": "stoneforge",
     "path": "packages/smithy/src/server/routes/tasks.test.ts",
-    "size_bytes": 9167
+    "size_bytes": 9700
   },
   {
     "repo": "stoneforge",

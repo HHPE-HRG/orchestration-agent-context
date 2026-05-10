@@ -30,6 +30,7 @@ This is the answer to "what should we do next?". Do not propose work that contra
 
 | If your task is about... | Read |
 | ------------------------ | ---- |
+| **Strategy, maturity gates, questionnaires, policy stubs (canonical repos)** | [`integration/07-maturity-and-handoff.md`](integration/07-maturity-and-handoff.md) — outbound links only; implement in real repos |
 | XLOTYL (control plane, capability packages, response-control, model harness routing, graph compiler, xsf CLI) | [`xlotyl/00-boundary.md`](xlotyl/00-boundary.md) then [`xlotyl/02-contract-index.md`](xlotyl/02-contract-index.md) |
 | Stoneforge (Smithy runtime, Quarry data layer, dispatch, dashboards, sf CLI) | [`stoneforge/00-boundary.md`](stoneforge/00-boundary.md) then [`stoneforge/02-contract-index.md`](stoneforge/02-contract-index.md) |
 | The XLOTYL ↔ Stoneforge contract surfaces | [`integration/01-graph-contract.md`](integration/01-graph-contract.md), [`integration/02-sf-cli-contract.md`](integration/02-sf-cli-contract.md), [`integration/03-capability-package-contract.md`](integration/03-capability-package-contract.md), [`integration/04-package-smoke-contract.md`](integration/04-package-smoke-contract.md), [`integration/05-terminality-contract.md`](integration/05-terminality-contract.md) |

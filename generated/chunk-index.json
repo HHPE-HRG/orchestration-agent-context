@@ -3,72 +3,84 @@
     "repo": "xlotyl",
     "chunk": "agent-platform",
     "path": "xlotyl/chunks/agent-platform.md",
-    "size_bytes": 1994553
+    "size_bytes": 1994580
   },
   {
     "repo": "xlotyl",
     "chunk": "capability-packages",
     "path": "xlotyl/chunks/capability-packages.md",
-    "size_bytes": 16204
+    "size_bytes": 16231
   },
   {
     "repo": "xlotyl",
     "chunk": "core-dev-services",
     "path": "xlotyl/chunks/core-dev-services.md",
-    "size_bytes": 375454
+    "size_bytes": 386221
   },
   {
     "repo": "xlotyl",
     "chunk": "model-runtime",
     "path": "xlotyl/chunks/model-runtime.md",
-    "size_bytes": 71943
+    "size_bytes": 71970
+  },
+  {
+    "repo": "xlotyl",
+    "chunk": "orchestration-maturity-tooling",
+    "path": "xlotyl/chunks/orchestration-maturity-tooling.md",
+    "size_bytes": 22029
   },
   {
     "repo": "xlotyl",
     "chunk": "response-control",
     "path": "xlotyl/chunks/response-control.md",
-    "size_bytes": 378684
+    "size_bytes": 378711
   },
   {
     "repo": "xlotyl",
     "chunk": "schemas",
     "path": "xlotyl/chunks/schemas.md",
-    "size_bytes": 68124
+    "size_bytes": 69990
   },
   {
     "repo": "xlotyl",
     "chunk": "wiki-response-control",
     "path": "xlotyl/chunks/wiki-response-control.md",
-    "size_bytes": 239164
+    "size_bytes": 272673
   },
   {
     "repo": "stoneforge",
     "chunk": "cli",
     "path": "stoneforge/chunks/cli.md",
-    "size_bytes": 1899465
+    "size_bytes": 1899494
+  },
+  {
+    "repo": "stoneforge",
+    "chunk": "core-runtime",
+    "path": "stoneforge/chunks/core-runtime.md",
+    "size_bytes": 1607910
   },
   {
     "repo": "stoneforge",
     "chunk": "dashboard",
     "path": "stoneforge/chunks/dashboard.md",
-    "size_bytes": 4506938
+    "size_bytes": 4506967
   },
   {
     "repo": "stoneforge",
     "chunk": "quarry",
     "path": "stoneforge/chunks/quarry.md",
-    "size_bytes": 4672390
+    "size_bytes": 4671410
   },
   {
     "repo": "stoneforge",
     "chunk": "smithy",
     "path": "stoneforge/chunks/smithy.md",
-    "size_bytes": 2723792
+    "size_bytes": 2727599
   },
   {
     "repo": "stoneforge",
     "chunk": "xlotyl-integration",
     "path": "stoneforge/chunks/xlotyl-integration.md",
-    "size_bytes": 4450
+    "size_bytes": 5112
   }
 ]

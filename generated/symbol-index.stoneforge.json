@@ -30697,6 +30697,66 @@
   },
   {
     "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 17,
+    "signature": "export interface DirectorTaskCreationGuardApi {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 22,
+    "signature": "export const XLOTYL_DIRECTOR_TASK_CREATE_REJECTION_CODE = 'XLOTYL_STONEFORGE_DIRECTOR_TASK_CREATE_FORBIDDEN';"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 24,
+    "signature": "export class XlotylDirectorTaskCreationError extends Error {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 35,
+    "signature": "function asRecord(value: unknown): Record<string, unknown> | undefined {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 41,
+    "signature": "function agentRoleFromMetadata(metadata: unknown): string | undefined {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 52,
+    "signature": "function planHasStrictXlotylMode(plan: Plan): boolean {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 58,
+    "signature": "async function isDirectorActor(api: DirectorTaskCreationGuardApi, actor: EntityId): Promise<boolean> {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 67,
+    "signature": "async function hasStrictXlotylStoneforgePlan(api: DirectorTaskCreationGuardApi): Promise<boolean> {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 84,
+    "signature": "export async function assertDirectorTaskCreationAllowedInXlotylMode("
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 97,
+    "signature": "export function isXlotylDirectorTaskCreationError(error: unknown): error is XlotylDirectorTaskCreationError {"
+  },
+  {
+    "repo": "stoneforge",
     "path": "packages/quarry/src/api/auto-blocked-status.bun.test.ts",
     "line": 27,
     "signature": "function toCreateInput<T extends Element>(element: T): Parameters<QuarryAPIImpl['create']>[0] {"
@@ -37880,61 +37940,61 @@
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 107,
+    "line": 109,
     "signature": "export interface QuarryServerOptions {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 115,
+    "line": 117,
     "signature": "export interface QuarryApp {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 129,
+    "line": 131,
     "signature": "export function createQuarryApp(options: QuarryServerOptions = {}): QuarryApp {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 288,
+    "line": 290,
     "signature": "function enrichTasksWithCounts(tasks: Record<string, unknown>[]): Record<string, unknown>[] {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 1817,
+    "line": 1828,
     "signature": "type InboxItemRow = {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 3390,
+    "line": 3421,
     "signature": "async function ensureUploadsDir(): Promise<void> {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 3672,
+    "line": 3703,
     "signature": "interface WsHandlers {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 3685,
+    "line": 3716,
     "signature": "function startBunServer("
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 3719,
+    "line": 3750,
     "signature": "function startNodeServer("
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 3810,
+    "line": 3841,
     "signature": "export function startQuarryServer(options: QuarryServerOptions = {}): QuarryApp {"
   },
   {
@@ -38350,60 +38410,6 @@
     "path": "packages/quarry/src/services/search-utils.ts",
     "line": 106,
     "signature": "export function escapeFts5Query(input: string): string {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 4,
-    "signature": "export const XLOTYL_DIRECTOR_TASK_CREATE_REJECTION_CODE = 'XLOTYL_STONEFORGE_DIRECTOR_TASK_CREATE_FORBIDDEN';"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 6,
-    "signature": "export class XlotylDirectorTaskCreationError extends Error {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 17,
-    "signature": "function asRecord(value: unknown): Record<string, unknown> | undefined {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 23,
-    "signature": "function agentRoleFromMetadata(metadata: unknown): string | undefined {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 34,
-    "signature": "function planHasStrictXlotylMode(plan: Plan): boolean {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 40,
-    "signature": "async function isDirectorActor(api: QuarryAPI, actor: EntityId): Promise<boolean> {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 49,
-    "signature": "async function hasStrictXlotylStoneforgePlan(api: QuarryAPI): Promise<boolean> {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 62,
-    "signature": "export async function assertDirectorTaskCreationAllowedInXlotylMode("
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 75,
-    "signature": "export function isXlotylDirectorTaskCreationError(error: unknown): error is XlotylDirectorTaskCreationError {"
   },
   {
     "repo": "stoneforge",
@@ -39265,6 +39271,18 @@
   },
   {
     "repo": "stoneforge",
+    "path": "packages/quarry/test/director-task-guard.integration.test.ts",
+    "line": 13,
+    "signature": "function actorElement(role: string): Element {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/quarry/test/director-task-guard.integration.test.ts",
+    "line": 24,
+    "signature": "function strictPlan(): Plan {"
+  },
+  {
+    "repo": "stoneforge",
     "path": "packages/shared-routes/src/channels.ts",
     "line": 13,
     "signature": "export function createChannelRoutes(services: CollaborateServices) {"
@@ -39362,7 +39380,7 @@
   {
     "repo": "stoneforge",
     "path": "packages/shared-routes/src/plans.ts",
-    "line": 22,
+    "line": 24,
     "signature": "export function createPlanRoutes(services: CollaborateServices) {"
   },
   {
@@ -40462,6 +40480,30 @@
     "path": "packages/smithy/src/git/worktree-manager.ts",
     "line": 1348,
     "signature": "export function getWorktreeStateDescription(state: WorktreeState): string {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/smithy/src/orchestration/director-path-register.contract.test.ts",
+    "line": 19,
+    "signature": "function loadRegister(): DirectorPathRegister {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/smithy/src/orchestration/director-path-register.contract.test.ts",
+    "line": 25,
+    "signature": "type GuardPresent = 'yes' | 'partial' | 'gap' | 'n/a';"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/smithy/src/orchestration/director-path-register.contract.test.ts",
+    "line": 27,
+    "signature": "interface DirectorPathRow {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/smithy/src/orchestration/director-path-register.contract.test.ts",
+    "line": 36,
+    "signature": "interface DirectorPathRegister {"
   },
   {
     "repo": "stoneforge",
@@ -42632,13 +42674,19 @@
   {
     "repo": "stoneforge",
     "path": "packages/smithy/src/server/routes/tasks.test.ts",
-    "line": 18,
+    "line": 21,
+    "signature": "function loadDirectorCreateForbiddenGolden(): unknown {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/smithy/src/server/routes/tasks.test.ts",
+    "line": 31,
     "signature": "function createMockTask(overrides: Partial<Task> = {}): Task {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/smithy/src/server/routes/tasks.test.ts",
-    "line": 49,
+    "line": 62,
     "signature": "function createMockServices() {"
   },
   {

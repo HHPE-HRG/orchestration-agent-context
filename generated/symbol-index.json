@@ -104,91 +104,91 @@
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 32,
+    "line": 39,
     "signature": "class SmokePaths:"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 41,
+    "line": 48,
     "signature": "def _utc_now_iso() -> str:"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 45,
+    "line": 52,
     "signature": "def _repo_root() -> Path:"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 49,
+    "line": 56,
     "signature": "def _run(cmd: list[str], *, cwd: Path, env: dict[str, str] | None = None) -> subprocess.CompletedProcess[str]:"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 53,
+    "line": 60,
     "signature": "def _require_ok(result: subprocess.CompletedProcess[str], *, label: str) -> None:"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 58,
+    "line": 65,
     "signature": "def _load_json(path: Path) -> Any:"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 62,
+    "line": 69,
     "signature": "def _import_response_control_validation(repo_root: Path):"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 76,
+    "line": 83,
     "signature": "def _xsf(cli_js: Path, args: list[str], *, cwd: Path) -> subprocess.CompletedProcess[str]:"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 80,
+    "line": 87,
     "signature": "def _paths_for(repo_root: Path, package_id: str) -> SmokePaths:"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 96,
+    "line": 103,
     "signature": "def _required_smoke_package_ids(repo_root: Path) -> list[str]:"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 123,
+    "line": 130,
     "signature": "def _example_task_card_path(package_root: Path, manifest: dict[str, Any]) -> Path:"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 130,
+    "line": 137,
     "signature": "def _source_goal(manifest: dict[str, Any]) -> str:"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 137,
+    "line": 144,
     "signature": "def _smoke_mode(manifest: dict[str, Any]) -> str:"
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 144,
+    "line": 151,
     "signature": "def _verification_report_stub("
   },
   {
     "repo": "xlotyl",
     "path": "scripts/capability_package_smoke.py",
-    "line": 196,
+    "line": 204,
     "signature": "def main(argv: list[str] | None = None) -> int:"
   },
   {
@@ -268,6 +268,12 @@
     "path": "scripts/check_deployed_branch_no_model_mocks.py",
     "line": 73,
     "signature": "def main() -> int:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/check_guardrail_policy_matrix.py",
+    "line": 18,
+    "signature": "def main(argv: list[str] | None = None) -> int:"
   },
   {
     "repo": "xlotyl",
@@ -1381,6 +1387,42 @@
   },
   {
     "repo": "xlotyl",
+    "path": "scripts/orchestration_maturity_certificate_emit.py",
+    "line": 21,
+    "signature": "def _env_gate(name: str, default: str = \"skipped\") -> str:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/orchestration_maturity_certificate_emit.py",
+    "line": 25,
+    "signature": "def build_certificate("
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/orchestration_maturity_certificate_emit.py",
+    "line": 53,
+    "signature": "def gate_failures(doc: dict[str, Any]) -> list[tuple[str, str]]:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/orchestration_maturity_certificate_emit.py",
+    "line": 58,
+    "signature": "def print_gate_table(doc: dict[str, Any]) -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/orchestration_maturity_certificate_emit.py",
+    "line": 67,
+    "signature": "def validate_certificate_schema(doc: dict[str, Any]) -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/orchestration_maturity_certificate_emit.py",
+    "line": 85,
+    "signature": "def main(argv: list[str] | None = None) -> int:"
+  },
+  {
+    "repo": "xlotyl",
     "path": "scripts/orchestration_tier3_materialize.mjs",
     "line": 27,
     "signature": "function parseArgs(argv) {"
@@ -1663,6 +1705,54 @@
   },
   {
     "repo": "xlotyl",
+    "path": "scripts/tests/test_orchestration_maturity_certificate_emit.py",
+    "line": 13,
+    "signature": "def test_certificate_shape_matches_adr_skeleton() -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tests/test_orchestration_maturity_certificate_emit.py",
+    "line": 24,
+    "signature": "def test_validate_certificate_schema_accepts_baseline_doc() -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tests/test_orchestration_maturity_certificate_emit.py",
+    "line": 36,
+    "signature": "def test_gate_failures_filters(gates: dict[str, str], expect_fails: list[tuple[str, str]]) -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tests/test_orchestration_maturity_certificate_emit.py",
+    "line": 42,
+    "signature": "def test_cli_fail_on_gate_fail_exits_nonzero(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tests/test_tier1_tracing_spans.py",
+    "line": 17,
+    "signature": "def test_mandatory_coverage_happy(tmp_path: Path) -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tests/test_tier1_tracing_spans.py",
+    "line": 32,
+    "signature": "def test_missing_mandatory_span_name_fails(tmp_path: Path) -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tests/test_tier1_tracing_spans.py",
+    "line": 41,
+    "signature": "def test_invalid_outcome_raises() -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tests/test_tier1_tracing_spans.py",
+    "line": 56,
+    "signature": "def test_enforcer_direct() -> None:"
+  },
+  {
+    "repo": "xlotyl",
     "path": "scripts/tests/test_validate_capability_packages.py",
     "line": 9,
     "signature": "def _copy_repo_schema(repo_root: Path, target_root: Path) -> None:"
@@ -1732,6 +1822,42 @@
     "path": "scripts/tests/test_validate_capability_packages.py",
     "line": 206,
     "signature": "def test_smoke_required_without_example_task_card_fails(tmp_path: Path) -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tier1_tracing_spans.py",
+    "line": 31,
+    "signature": "def utc_ms_now() -> int:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tier1_tracing_spans.py",
+    "line": 37,
+    "signature": "def append_tier1_span("
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tier1_tracing_spans.py",
+    "line": 71,
+    "signature": "def validate_minimal_span_dict(span: dict[str, Any]) -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tier1_tracing_spans.py",
+    "line": 89,
+    "signature": "def enforce_mandatory_tier1_names(spans: list[dict[str, Any]]) -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tier1_tracing_spans.py",
+    "line": 98,
+    "signature": "def write_spans_jsonl(path: Path, spans: list[dict[str, Any]]) -> None:"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "scripts/tier1_tracing_spans.py",
+    "line": 109,
+    "signature": "def load_spans_jsonl(path: Path) -> list[dict[str, Any]]:"
   },
   {
     "repo": "xlotyl",
@@ -24781,170 +24907,224 @@
   },
   {
     "repo": "xlotyl",
+    "path": "services/core-dev-services/src/stoneforge/guardrail-evaluation-integration.test.ts",
+    "line": 23,
+    "signature": "function minimalGraph(runId: string) {"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "services/core-dev-services/src/stoneforge/guardrail-runtime.ts",
+    "line": 15,
+    "signature": "export type GuardrailTierEnv = \"dev\" | \"ci\" | \"staging\" | \"prod\""
+  },
+  {
+    "repo": "xlotyl",
+    "path": "services/core-dev-services/src/stoneforge/guardrail-runtime.ts",
+    "line": 18,
+    "signature": "export type GuardrailAdapterId ="
+  },
+  {
+    "repo": "xlotyl",
+    "path": "services/core-dev-services/src/stoneforge/guardrail-runtime.ts",
+    "line": 30,
+    "signature": "export type GuardrailMode = \"block\" | \"noop\" | \"audit_only\" | \"retryable\""
+  },
+  {
+    "repo": "xlotyl",
+    "path": "services/core-dev-services/src/stoneforge/guardrail-runtime.ts",
+    "line": 49,
+    "signature": "export function resolveGuardrailEnvironment(): GuardrailTierEnv {"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "services/core-dev-services/src/stoneforge/guardrail-runtime.ts",
+    "line": 60,
+    "signature": "export function guardrailModeFor(adapter: GuardrailAdapterId, env: GuardrailTierEnv = resolveGuardrailEnvironment()): GuardrailMode {"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "services/core-dev-services/src/stoneforge/guardrail-runtime.ts",
+    "line": 64,
+    "signature": "function nowIso(): string {"
+  },
+  {
+    "repo": "xlotyl",
+    "path": "services/core-dev-services/src/stoneforge/guardrail-runtime.ts",
+    "line": 73,
+    "signature": "export async function appendGuardrailAuditDispatchRecord("
+  },
+  {
+    "repo": "xlotyl",
+    "path": "services/core-dev-services/src/stoneforge/guardrail-runtime.ts",
+    "line": 87,
+    "signature": "export async function handleEvaluateParseGuardrail(workspaceRoot: string, runId: string, errors: string[]): Promise<void> {"
+  },
+  {
+    "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 20,
+    "line": 21,
     "signature": "export type ImportRunOptions = { binding?: StoneforgeBinding; dryRun?: boolean }"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 22,
+    "line": 23,
     "signature": "export interface StoneforgeDraftPlan {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 38,
+    "line": 39,
     "signature": "export interface StoneforgeMap {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 43,
+    "line": 44,
     "signature": "export interface ImportRunResult {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 55,
+    "line": 56,
     "signature": "export interface ImportDryRunResult {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 66,
+    "line": 67,
     "signature": "export type ValidateAndImportRunResult ="
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 71,
+    "line": 72,
     "signature": "function nowIso(): string {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 75,
+    "line": 76,
     "signature": "function syntheticTaskId(taskCardId: string): string {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 79,
+    "line": 80,
     "signature": "function xlotylTaskMetadata(graph: XlotylStoneforgeGraph, taskCardId: string): Record<string, unknown> {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 96,
+    "line": 97,
     "signature": "async function appendLog(workspaceRoot: string, runId: string, record: Record<string, unknown>): Promise<void> {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 101,
+    "line": 102,
     "signature": "function xlotylPlanMetadata(graph: XlotylStoneforgeGraph): Record<string, unknown> {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 114,
+    "line": 115,
     "signature": "function asRecord(value: unknown): Record<string, unknown> | undefined {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 120,
+    "line": 121,
     "signature": "function unwrapShownElement(value: unknown): Record<string, unknown> | undefined {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 125,
+    "line": 126,
     "signature": "function assertUniqueTaskCardTaskMapping(mapping: Record<string, string>): void {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 138,
+    "line": 139,
     "signature": "async function verifySfCliImportMetadata("
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 171,
+    "line": 172,
     "signature": "async function loadExistingSfDraft("
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 203,
+    "line": 204,
     "signature": "async function importViaSfCli("
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 354,
+    "line": 355,
     "signature": "export async function importRun("
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 445,
+    "line": 446,
     "signature": "export async function validateAndImportRun("
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 450,
+    "line": 451,
     "signature": "export async function validateAndImportRun("
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 455,
+    "line": 456,
     "signature": "export async function validateAndImportRun("
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 489,
+    "line": 490,
     "signature": "export interface ApprovalRecord {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 496,
+    "line": 497,
     "signature": "export async function writeApproval("
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 505,
+    "line": 506,
     "signature": "export async function readGraphFromDisk(workspaceRoot: string, runId: string): Promise<XlotylStoneforgeGraph> {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 515,
+    "line": 516,
     "signature": "export async function activateRun("
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 565,
+    "line": 566,
     "signature": "export interface SyncEventInput {"
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 573,
+    "line": 574,
     "signature": "export async function appendSyncEvent("
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/import-run.ts",
-    "line": 589,
+    "line": 590,
     "signature": "export async function appendEvaluationEvent(workspaceRoot: string, runId: string, event: unknown): Promise<void> {"
   },
   {
@@ -25220,13 +25400,13 @@
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/validator-registry.ts",
-    "line": 12,
+    "line": 16,
     "signature": "export const STONEFORGE_VALIDATOR_IDS = ["
   },
   {
     "repo": "xlotyl",
     "path": "services/core-dev-services/src/stoneforge/validator-registry.ts",
-    "line": 19,
+    "line": 23,
     "signature": "export type StoneforgeValidatorId = (typeof STONEFORGE_VALIDATOR_IDS)[number]"
   },
   {
@@ -63931,6 +64111,66 @@
   },
   {
     "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 17,
+    "signature": "export interface DirectorTaskCreationGuardApi {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 22,
+    "signature": "export const XLOTYL_DIRECTOR_TASK_CREATE_REJECTION_CODE = 'XLOTYL_STONEFORGE_DIRECTOR_TASK_CREATE_FORBIDDEN';"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 24,
+    "signature": "export class XlotylDirectorTaskCreationError extends Error {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 35,
+    "signature": "function asRecord(value: unknown): Record<string, unknown> | undefined {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 41,
+    "signature": "function agentRoleFromMetadata(metadata: unknown): string | undefined {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 52,
+    "signature": "function planHasStrictXlotylMode(plan: Plan): boolean {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 58,
+    "signature": "async function isDirectorActor(api: DirectorTaskCreationGuardApi, actor: EntityId): Promise<boolean> {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 67,
+    "signature": "async function hasStrictXlotylStoneforgePlan(api: DirectorTaskCreationGuardApi): Promise<boolean> {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 84,
+    "signature": "export async function assertDirectorTaskCreationAllowedInXlotylMode("
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "line": 97,
+    "signature": "export function isXlotylDirectorTaskCreationError(error: unknown): error is XlotylDirectorTaskCreationError {"
+  },
+  {
+    "repo": "stoneforge",
     "path": "packages/quarry/src/api/auto-blocked-status.bun.test.ts",
     "line": 27,
     "signature": "function toCreateInput<T extends Element>(element: T): Parameters<QuarryAPIImpl['create']>[0] {"
@@ -71114,61 +71354,61 @@
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 107,
+    "line": 109,
     "signature": "export interface QuarryServerOptions {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 115,
+    "line": 117,
     "signature": "export interface QuarryApp {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 129,
+    "line": 131,
     "signature": "export function createQuarryApp(options: QuarryServerOptions = {}): QuarryApp {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 288,
+    "line": 290,
     "signature": "function enrichTasksWithCounts(tasks: Record<string, unknown>[]): Record<string, unknown>[] {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 1817,
+    "line": 1828,
     "signature": "type InboxItemRow = {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 3390,
+    "line": 3421,
     "signature": "async function ensureUploadsDir(): Promise<void> {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 3672,
+    "line": 3703,
     "signature": "interface WsHandlers {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 3685,
+    "line": 3716,
     "signature": "function startBunServer("
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 3719,
+    "line": 3750,
     "signature": "function startNodeServer("
   },
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "line": 3810,
+    "line": 3841,
     "signature": "export function startQuarryServer(options: QuarryServerOptions = {}): QuarryApp {"
   },
   {
@@ -71584,60 +71824,6 @@
     "path": "packages/quarry/src/services/search-utils.ts",
     "line": 106,
     "signature": "export function escapeFts5Query(input: string): string {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 4,
-    "signature": "export const XLOTYL_DIRECTOR_TASK_CREATE_REJECTION_CODE = 'XLOTYL_STONEFORGE_DIRECTOR_TASK_CREATE_FORBIDDEN';"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 6,
-    "signature": "export class XlotylDirectorTaskCreationError extends Error {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 17,
-    "signature": "function asRecord(value: unknown): Record<string, unknown> | undefined {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 23,
-    "signature": "function agentRoleFromMetadata(metadata: unknown): string | undefined {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 34,
-    "signature": "function planHasStrictXlotylMode(plan: Plan): boolean {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 40,
-    "signature": "async function isDirectorActor(api: QuarryAPI, actor: EntityId): Promise<boolean> {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 49,
-    "signature": "async function hasStrictXlotylStoneforgePlan(api: QuarryAPI): Promise<boolean> {"
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 62,
-    "signature": "export async function assertDirectorTaskCreationAllowedInXlotylMode("
-  },
-  {
-    "repo": "stoneforge",
-    "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "line": 75,
-    "signature": "export function isXlotylDirectorTaskCreationError(error: unknown): error is XlotylDirectorTaskCreationError {"
   },
   {
     "repo": "stoneforge",
@@ -72499,6 +72685,18 @@
   },
   {
     "repo": "stoneforge",
+    "path": "packages/quarry/test/director-task-guard.integration.test.ts",
+    "line": 13,
+    "signature": "function actorElement(role: string): Element {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/quarry/test/director-task-guard.integration.test.ts",
+    "line": 24,
+    "signature": "function strictPlan(): Plan {"
+  },
+  {
+    "repo": "stoneforge",
     "path": "packages/shared-routes/src/channels.ts",
     "line": 13,
     "signature": "export function createChannelRoutes(services: CollaborateServices) {"
@@ -72596,7 +72794,7 @@
   {
     "repo": "stoneforge",
     "path": "packages/shared-routes/src/plans.ts",
-    "line": 22,
+    "line": 24,
     "signature": "export function createPlanRoutes(services: CollaborateServices) {"
   },
   {
@@ -73696,6 +73894,30 @@
     "path": "packages/smithy/src/git/worktree-manager.ts",
     "line": 1348,
     "signature": "export function getWorktreeStateDescription(state: WorktreeState): string {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/smithy/src/orchestration/director-path-register.contract.test.ts",
+    "line": 19,
+    "signature": "function loadRegister(): DirectorPathRegister {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/smithy/src/orchestration/director-path-register.contract.test.ts",
+    "line": 25,
+    "signature": "type GuardPresent = 'yes' | 'partial' | 'gap' | 'n/a';"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/smithy/src/orchestration/director-path-register.contract.test.ts",
+    "line": 27,
+    "signature": "interface DirectorPathRow {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/smithy/src/orchestration/director-path-register.contract.test.ts",
+    "line": 36,
+    "signature": "interface DirectorPathRegister {"
   },
   {
     "repo": "stoneforge",
@@ -75866,13 +76088,19 @@
   {
     "repo": "stoneforge",
     "path": "packages/smithy/src/server/routes/tasks.test.ts",
-    "line": 18,
+    "line": 21,
+    "signature": "function loadDirectorCreateForbiddenGolden(): unknown {"
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/smithy/src/server/routes/tasks.test.ts",
+    "line": 31,
     "signature": "function createMockTask(overrides: Partial<Task> = {}): Task {"
   },
   {
     "repo": "stoneforge",
     "path": "packages/smithy/src/server/routes/tasks.test.ts",
-    "line": 49,
+    "line": 62,
     "signature": "function createMockServices() {"
   },
   {

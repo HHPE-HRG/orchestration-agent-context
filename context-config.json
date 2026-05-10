@@ -52,6 +52,15 @@
   "chunk_size_limit_bytes": 250000,
   "per_file_size_limit_bytes": 200000,
   "xlotyl_chunks": {
+    "orchestration-maturity-tooling": [
+      "scripts/sync-director-register.mjs",
+      "scripts/orchestration_maturity_certificate_emit.py",
+      "scripts/tests/test_orchestration_maturity_certificate_emit.py",
+      "scripts/check_guardrail_policy_matrix.py",
+      ".github/workflows/orchestration-maturity-certificate.yml",
+      "schemas/ci/orchestration-maturity-certificate.schema.json",
+      "fixtures/ci/director-path-register.json"
+    ],
     "core-dev-services":     ["services/core-dev-services/src", "services/core-dev-services/PLATFORM_PATHWAYS.md", "services/core-dev-services/SHELL_HOOK_RESPONSIBILITIES.md", "services/core-dev-services/package.json"],
     "capability-packages":   ["capability-packages"],
     "response-control":      ["services/response-control-framework/src", "services/response-control-framework/schemas", "services/response-control-framework/pyproject.toml"],
@@ -61,6 +70,7 @@
     "wiki-response-control": ["knowledge/wiki", "knowledge/response-control"]
   },
   "stoneforge_chunks": {
+    "core-runtime":       ["packages/core/src", "packages/core/package.json"],
     "smithy":             ["packages/smithy/src", "packages/smithy/package.json", "packages/smithy/README.md"],
     "quarry":             ["packages/quarry/src", "packages/quarry/package.json", "packages/quarry/README.md"],
     "dashboard":          ["apps/smithy-server/src", "apps/smithy-web/src", "apps/quarry-server/src", "apps/quarry-web/src"],

@@ -46,6 +46,25 @@ bash scripts/ci_orchestration_prompt_bank.sh
 bash scripts/ci_orchestration_tier3_materialize_all.sh
 ```
 
+## Orchestration maturity (guardrails / certificate / director register)
+
+Run from **`xlotyl/`** repo root.
+
+```bash
+# Mirror Stoneforge director-path-register JSON for R3 parity tests / CI
+make sync-director-register
+
+# Structural guardrail YAML matrix (Lane U11)
+make guardrail-policy-check
+
+# Maturity certificate emitter + schema (--validate-schema needs dev deps)
+uv sync --python 3.11 --group dev
+uv run pytest scripts/tests/test_orchestration_maturity_certificate_emit.py -q
+
+# Guardrail runtime + evaluate-ingest harness (@xlotyl/core-dev-services)
+pnpm --filter @xlotyl/core-dev-services test -- guardrail-runtime guardrail-evaluation director_register_fixture
+```
+
 ## Lint / hygiene
 
 ```bash

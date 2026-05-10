@@ -16,6 +16,7 @@ Web-based chat agents typically cannot:
 This mirror gives them a small, curated, deterministic view:
 
 - boundary docs (who owns what),
+- strategy maturity handoff pointers ([`integration/07-maturity-and-handoff.md`](integration/07-maturity-and-handoff.md)),
 - contract indexes (graph format, capability packages, sf-cli),
 - repo maps,
 - symbol indexes,

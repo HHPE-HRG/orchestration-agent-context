@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generator_version": "1.0.0",
-  "generated_at": "2026-05-09T20:06:26Z",
+  "generated_at": "2026-05-10T18:23:54Z",
   "refresh_command": "./refresh.sh",
   "exclude_patterns": [
     ".git/**",
@@ -50,28 +50,28 @@
       "repo": "HHPE-HRG/xlotyl",
       "path": "../xlotyl",
       "status": "ok",
-      "commit_sha": "5bbd4e6ce2b7f58ecaf2e4c8120a5d4b74100c7e",
-      "short_sha": "5bbd4e6",
-      "branch": "main",
+      "commit_sha": "4685cc09fc9598afcd636015a62c331d959ce2fd",
+      "short_sha": "4685cc0",
+      "branch": "feat/maturity-lane-D-tracing-ci",
       "dirty": false,
-      "file_count": 1764,
-      "chunks_written": 7,
+      "file_count": 1794,
+      "chunks_written": 8,
       "symbols_indexed": true,
-      "symbol_count": 5539
+      "symbol_count": 5569
     },
     {
       "name": "stoneforge",
       "repo": "HHPE-HRG/stoneforge",
       "path": "../stoneforge",
       "status": "ok",
-      "commit_sha": "283aa918f3668cb6ae24485599c96538f068cff9",
-      "short_sha": "283aa91",
-      "branch": "master",
+      "commit_sha": "66855845054150448bc05b86a7674c9f74c95d11",
+      "short_sha": "6685584",
+      "branch": "feat/maturity-lane-B-director-guard",
       "dirty": false,
-      "file_count": 1750,
-      "chunks_written": 5,
+      "file_count": 1756,
+      "chunks_written": 6,
       "symbols_indexed": true,
-      "symbol_count": 8474
+      "symbol_count": 8482
     },
     {
       "name": "claw-code",

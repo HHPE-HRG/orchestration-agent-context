@@ -5341,8 +5341,18 @@
   },
   {
     "repo": "stoneforge",
+    "path": "docs/orchestration/director-path-register.json",
+    "size_bytes": 6555
+  },
+  {
+    "repo": "stoneforge",
+    "path": "docs/orchestration/director-path-register.md",
+    "size_bytes": 7522
+  },
+  {
+    "repo": "stoneforge",
     "path": "docs/wiki/xlotyl-stoneforge-connection.md",
-    "size_bytes": 1453
+    "size_bytes": 2086
   },
   {
     "repo": "stoneforge",
@@ -5447,7 +5457,7 @@
   {
     "repo": "stoneforge",
     "path": "packages/core/src/index.ts",
-    "size_bytes": 588
+    "size_bytes": 716
   },
   {
     "repo": "stoneforge",
@@ -5643,6 +5653,11 @@
     "repo": "stoneforge",
     "path": "packages/core/src/utils/mentions.ts",
     "size_bytes": 5889
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/core/src/xlotyl/director-task-guard.ts",
+    "size_bytes": 3506
   },
   {
     "repo": "stoneforge",
@@ -6532,7 +6547,7 @@
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/server/index.ts",
-    "size_bytes": 137030
+    "size_bytes": 138120
   },
   {
     "repo": "stoneforge",
@@ -6662,7 +6677,7 @@
   {
     "repo": "stoneforge",
     "path": "packages/quarry/src/services/xlotyl-director-bypass.ts",
-    "size_bytes": 2534
+    "size_bytes": 436
   },
   {
     "repo": "stoneforge",
@@ -6728,6 +6743,11 @@
     "repo": "stoneforge",
     "path": "packages/quarry/src/systems/index.ts",
     "size_bytes": 1523
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/quarry/test/director-task-guard.integration.test.ts",
+    "size_bytes": 2578
   },
   {
     "repo": "stoneforge",
@@ -6857,7 +6877,7 @@
   {
     "repo": "stoneforge",
     "path": "packages/shared-routes/src/plans.ts",
-    "size_bytes": 20558
+    "size_bytes": 21133
   },
   {
     "repo": "stoneforge",
@@ -7048,6 +7068,11 @@
     "repo": "stoneforge",
     "path": "packages/smithy/src/index.ts",
     "size_bytes": 1535
+  },
+  {
+    "repo": "stoneforge",
+    "path": "packages/smithy/src/orchestration/director-path-register.contract.test.ts",
+    "size_bytes": 2700
   },
   {
     "repo": "stoneforge",
@@ -7481,6 +7506,11 @@
   },
   {
     "repo": "stoneforge",
+    "path": "packages/smithy/src/server/routes/fixtures/director-task-create-forbidden.http-409.json",
+    "size_bytes": 236
+  },
+  {
+    "repo": "stoneforge",
     "path": "packages/smithy/src/server/routes/health.ts",
     "size_bytes": 985
   },
@@ -7537,7 +7567,7 @@
   {
     "repo": "stoneforge",
     "path": "packages/smithy/src/server/routes/tasks.test.ts",
-    "size_bytes": 9167
+    "size_bytes": 9700
   },
   {
     "repo": "stoneforge",

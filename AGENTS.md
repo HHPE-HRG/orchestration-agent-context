@@ -73,4 +73,5 @@ If a task genuinely needs deep context for a supporting repo, do not invent it f
 - Read [`README.md`](README.md) for the user-facing overview.
 - Read [`integration/00-xlotyl-stoneforge-boundary.md`](integration/00-xlotyl-stoneforge-boundary.md) for the rule that decides which repo a change belongs in.
 - Read [`integration/06-current-roadmap.md`](integration/06-current-roadmap.md) before suggesting "what should we do next" — the roadmap is the answer.
+- Read [`integration/07-maturity-and-handoff.md`](integration/07-maturity-and-handoff.md) before claiming **mature orchestration** or filling maturity policy — outbound links to canonical `HHPE-HRG/xlotyl` and `HHPE-HRG/stoneforge` only.
 - Check [`generated/FRESHNESS.md`](generated/FRESHNESS.md) before quoting specific symbols.
